@@ -12,15 +12,15 @@ export interface CreateSerieInput {
   titulo: string;
   plataforma: string;
   temporadas: number;
-  nota?: number | null;
+  nota: number | null;
 }
 
 export interface UpdateSerieInput {
-  titulo?: string;
-  plataforma?: string;
-  temporadas?: number;
-  nota?: number | null;
-  concluida?: number;
+  titulo: string;
+  plataforma: string;
+  temporadas: number;
+  nota: number | null;
+  concluida: number;
 }
 
 export type SerieFilter = 'todas' | 'assistindo' | 'concluidas';
